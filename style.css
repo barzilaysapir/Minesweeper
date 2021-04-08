@@ -26,7 +26,7 @@
   transition: all 0.3s;
 }
 
-.board-squares.danger {
+.board-squares.danger:disabled {
   background-image: url(mine-icon.png);
   background-size: 80%;
   background-position: center;
